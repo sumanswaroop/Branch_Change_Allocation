@@ -1,0 +1,42 @@
+{% load staticfiles %}
+
+<!DOCTYPE HTML>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% include 'head.html' %}
+
+<body>
+{% if user.is_authenticated %}
+
+
+{% include 'nav.html' %}
+
+<!-- Form -->
+<form class="form-horizontal" method = "post" id = "bchangeform" role = "form" >{% csrf_token %}
+    {% for field in form %}
+     
+  <div class="form-group" >
+	<label class="control-label col-sm-4 col-md-4 col-xs-4">{{ field.label }}</label>
+    <div class="col-sm-4 col-md-4 col-xs-4 selectContainer">
+    {{field}}    
+    </div>
+  </div>
+{% endfor %}
+  <!-- Submit Button -->
+  <div class="form-group">
+    <div class="col-sm-offset-4 col-sm-4 col-md-4 col-xs-4">
+      <button class="btn btn-success btn-md" type = "submit">Submit</button>
+    </div>
+  </div>
+</form>
+{% endif %}
+
+{% if not user.is_authenticated %}
+<div class="alert alert-danger">
+  <strong>Danger!</strong> Whoops This Page is not Available
+</div>
+{% endif %}
+
+</body>
+</html>

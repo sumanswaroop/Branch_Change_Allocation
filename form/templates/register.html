@@ -1,0 +1,29 @@
+{% load staticfiles %}
+
+<!DOCTYPE HTML>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% include 'head.html' %}
+<body>
+{% include 'nav.html' %}
+<form class = "form-horizontal" method ="post" action = "/register"> {% csrf_token %}
+   
+{{form}}
+
+{% if messages %}
+<div class = "col-sm-4 col-md-4 col-xs-4" >
+<div class="alert alert-danger">
+{% for message in messages %}
+        {{ message|safe }}
+{% endfor %}
+</div>
+</div>
+{% endif %}
+   <div class="form-group">
+    <div class="col-sm-4 col-md-4 col-xs-4 text-center col-sm-offset-4">
+      <button class="btn btn-info btn-md" type = "submit">Login</button>
+    </div>
+  </div>
+   </form>
+</body>
+</html>

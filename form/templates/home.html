@@ -1,0 +1,47 @@
+{% load staticfiles %}
+<!DOCTYPE HTML >
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% include 'head.html' %}
+
+<body>
+
+{% include 'nav.html' %}
+
+<form class = "form-horizontal" method ="post" action = "{% url 'auth_view' %}"> {% csrf_token %}
+   
+   <div class ="form-group">
+   <label class="control-label col-sm-4 col-md-4 col-xs-4">Username</label>
+    <div class="col-sm-4 col-md-4 col-xs-4">
+   <input type = "text" class = "form-control" placeholder = "Username" name = "username">
+   </div>
+   </div>
+
+   <div class ="form-group">
+   	<label class="control-label col-sm-4 col-md-4 col-xs-4">Password</label>
+    <div class="col-sm-4 col-md-4 col-xs-4 selectContainer">
+    <input type = "password" class = "form-control" placeholder = "Password" name = "password">   
+    </div>
+    </div>
+
+{% if messages %}
+<div class = "col-sm-4 col-md-4 col-xs-4" >
+<div class="alert alert-danger">
+{% for message in messages %}
+        {{ message|safe }}
+{% endfor %}
+</div>
+</div>
+{% endif %}
+   <div class="form-group">
+    <div class="col-sm-4 col-md-4 col-xs-4 text-center col-sm-offset-4">
+      <button class="btn btn-info btn-md" type = "submit">Login</button>
+    </div>
+  </div>
+   </form>
+
+
+
+</body>
+</html>

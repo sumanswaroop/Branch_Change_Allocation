@@ -1,0 +1,1175 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Re",
+				"RequestContext"
+			],
+			[
+				"User",
+				"UserCreationForm"
+			],
+			[
+				"Us",
+				"UserCreationForm"
+			],
+			[
+				"user",
+				"userregister"
+			],
+			[
+				"inva",
+				"invalid_login"
+			],
+			[
+				"ren",
+				"render_to_response"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"Presen",
+				"Present_branch"
+			],
+			[
+				"B",
+				"BRANCHLIST"
+			],
+			[
+				"url",
+				"urlpatterns"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"profile",
+				"PROFILE"
+			],
+			[
+				"PR",
+				"PROJECT_ROOT"
+			],
+			[
+				"PRO",
+				"PROFILE"
+			],
+			[
+				"dot",
+				"dot"
+			],
+			[
+				"Pr",
+				"PROFILE"
+			],
+			[
+				"PRo",
+				"PROJECT_ROOT"
+			],
+			[
+				"Set",
+				"SetAngularVelocity"
+			],
+			[
+				"sp",
+				"sp"
+			],
+			[
+				"S",
+				"SetTransform"
+			],
+			[
+				"b2",
+				"b2FixtureDef"
+			],
+			[
+				"b2d",
+				"b2FixtureDef"
+			],
+			[
+				"crre",
+				"CreateFixture"
+			],
+			[
+				"Seta",
+				"SetAsBox"
+			],
+			[
+				"Se",
+				"set"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"Cre",
+				"CreateBody"
+			],
+			[
+				"dyn",
+				"b2_dynamicBody"
+			],
+			[
+				"b2Bo",
+				"b2BodyDef"
+			],
+			[
+				"se",
+				"SetGravityScale"
+			],
+			[
+				"fix",
+				"fixtureB"
+			],
+			[
+				"fixture",
+				"fixtureA"
+			],
+			[
+				"Get",
+				"GetFixtureA"
+			],
+			[
+				"line",
+				"line1bd"
+			],
+			[
+				"is",
+				"isAlive"
+			],
+			[
+				"Int",
+				"InterruptedException"
+			],
+			[
+				"st",
+				"start"
+			],
+			[
+				"bank",
+				"BankApplication"
+			],
+			[
+				"accou",
+				"account"
+			],
+			[
+				"Bank",
+				"BankApplication"
+			],
+			[
+				"In",
+				"InterruptedException"
+			],
+			[
+				"acc",
+				"accounts"
+			],
+			[
+				"Depo",
+				"DepositThread"
+			],
+			[
+				"book",
+				"bookVersion"
+			],
+			[
+				"ca",
+				"catch"
+			],
+			[
+				"Boo",
+				"BookVersion"
+			],
+			[
+				"With",
+				"WithdrawalThread"
+			],
+			[
+				"a",
+				"accounts"
+			],
+			[
+				"depo",
+				"deposit"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"Inpu",
+				"InputStreamReader"
+			],
+			[
+				"pa",
+				"password"
+			],
+			[
+				"new",
+				"newaccount"
+			],
+			[
+				"De",
+				"DEGTORAD"
+			],
+			[
+				"line1",
+				"line1b"
+			],
+			[
+				"penta",
+				"pentagon"
+			],
+			[
+				"poin",
+				"pointbd"
+			],
+			[
+				"pent",
+				"pentagon"
+			],
+			[
+				"pen",
+				"pentagonrev"
+			],
+			[
+				"pentagon",
+				"pentagonbd"
+			],
+			[
+				"pe",
+				"pentagon"
+			],
+			[
+				"dis",
+				"distance_joint"
+			],
+			[
+				"spring",
+				"springbl"
+			],
+			[
+				"sprin",
+				"springbld"
+			],
+			[
+				"spr",
+				"springbrf"
+			],
+			[
+				"br",
+				"br"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"sphere",
+				"spherebody"
+			],
+			[
+				"fi",
+				"fixtureB"
+			],
+			[
+				"senso",
+				"sensorB"
+			],
+			[
+				"sensor",
+				"sensorA"
+			],
+			[
+				"my",
+				"myFixtureDef"
+			],
+			[
+				"Crea",
+				"CreateBody"
+			],
+			[
+				"n",
+				"ns	Namespace"
+			],
+			[
+				"y",
+				"y"
+			],
+			[
+				"l",
+				"lelement"
+			],
+			[
+				"cos",
+				"cosvalue"
+			],
+			[
+				"N",
+				"NewtonRaphsonMethod"
+			],
+			[
+				"c",
+				"C"
+			],
+			[
+				"deno",
+				"denomderiv"
+			],
+			[
+				"den",
+				"denomin"
+			],
+			[
+				"deriv",
+				"derivt1"
+			],
+			[
+				"deri",
+				"derivfunc"
+			],
+			[
+				"w",
+				"wantedRanks"
+			],
+			[
+				"eg",
+				"egVector"
+			],
+			[
+				"mysql",
+				"mysql_db_name"
+			],
+			[
+				"fade",
+				"fade-in"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"left",
+				"margin-left"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"backgroun",
+				"background-image"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "form/forms.py",
+			"settings":
+			{
+				"buffer_size": 1527,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "branchchange/urls.py",
+			"settings":
+			{
+				"buffer_size": 775,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "form/templates/logout.html",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "form/views.py",
+			"settings":
+			{
+				"buffer_size": 1678,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "form/templates/home.html",
+			"settings":
+			{
+				"buffer_size": 1245,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "form/templates/register.html",
+			"settings":
+			{
+				"buffer_size": 685,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "form/templates/nav.html",
+			"settings":
+			{
+				"buffer_size": 1567,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "form/models.py",
+			"settings":
+			{
+				"buffer_size": 1117,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "form/templates/head.html",
+			"settings":
+			{
+				"buffer_size": 727,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "branchchange/settings.py",
+			"settings":
+			{
+				"buffer_size": 3202,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "form/templates/form.html",
+			"settings":
+			{
+				"buffer_size": 973,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/suman/Documents/branchchange",
+		"/home/suman/Documents/branchchange/branchchange",
+		"/home/suman/Documents/branchchange/form",
+		"/home/suman/Documents/branchchange/form/templates",
+		"/home/suman/Documents/branchchange/static",
+		"/home/suman/Documents/branchchange/static/staticfile",
+		"/home/suman/Documents/branchchange/static/staticfile/Validator"
+	],
+	"file_history":
+	[
+		"/home/suman/Documents/branchchange/form/templates/logout.html",
+		"/home/suman/Documents/branchchange/form/templates/invalid_login.html",
+		"/home/suman/Documents/branchchange/form/templates/loggedin.html",
+		"/home/suman/Documents/branchchange/form/templates/head.html",
+		"/home/suman/Pictures/branchchange/form/templates/form.html",
+		"/home/suman/Documents/branchchange/form/admin.py",
+		"/home/suman/Documents/branchchangehtml/form.html",
+		"/home/suman/Documents/branchchange/form/templates/form.html",
+		"/home/suman/Documents/branchchange/form/forms.py",
+		"/home/suman/Documents/branchchange/form/models.py",
+		"/home/suman/Documents/branchchange/branchchange/settings.py",
+		"/home/suman/Documents/branchchange/form/views.py",
+		"/home/suman/Documents/branchchange/branchchange/urls.py",
+		"/home/suman/Desktop/lab12_group23_final/cs251_base_code/Makefile",
+		"/home/suman/Documents/branchchange/branchchange/__init__.py",
+		"/home/suman/Desktop/lab12_group23_final/cs251_base_code/Makefileold",
+		"/home/suman/Desktop/lab12_group23_final/cs251_base_code/Makefileug",
+		"/home/suman/Documents/branchchange/branchchange.sublimeproject",
+		"/home/suman/Pictures/Box2D Webpage/Box2D Webpage/index.html",
+		"/home/suman/Desktop/lab12_group23_final/cs251_base_code/src/dominos.cpp",
+		"/home/suman/Pictures/Box2D Webpage/Box2D Webpage/index.css",
+		"/home/suman/Desktop/lab12_group23_final/cs251_base_code/src/cs251_base.hpp",
+		"/home/suman/Desktop/lab12_group23_final/cs251_base_code/src/cs251_base.cpp",
+		"/home/suman/Desktop/lab12_group23_final/cs251_base_code/src/main.cpp",
+		"/home/suman/Desktop/cs251_base_code/src/dominos.cpp",
+		"/home/suman/Desktop/cs251_base_code/Makefile",
+		"/home/suman/Downloads/cs251_base_code (3)/Makefile",
+		"/home/suman/Desktop/cs251_base_code/src/cs251_base.cpp",
+		"/home/suman/Desktop/cs251_base_code/src/cs251_base.hpp",
+		"/home/suman/Desktop/cs251_base_code/src/callbacks.cpp",
+		"/home/suman/Desktop/cs251_base_code/src/render.hpp",
+		"/home/suman/Desktop/cs251_base_code/src/render.cpp",
+		"/home/suman/Desktop/cs251_base_code/src/callbacks.hpp",
+		"/home/suman/Desktop/cs251_base_code/src/main.cpp",
+		"/home/suman/Music/cs251_base_code/Makefile",
+		"/home/suman/Desktop/cs251_base_code/Makefile2",
+		"/home/suman/Desktop/makefile",
+		"/home/suman/Desktop/cs251_base_code/Makefilenew",
+		"/home/suman/Downloads/lab06_group23_final/makefile",
+		"/home/suman/Desktop/cs251_base_code/makefile.release",
+		"/home/suman/Downloads/cs296_spring2013-master/src/dominos.cpp",
+		"/home/suman/Downloads/cs296_spring2013-master/src/main_perf.cpp",
+		"/home/suman/Desktop/cs251_base_code/src/dominos.hpp",
+		"/home/suman/Desktop/cs251_base_code/src/Instructions.txt",
+		"/home/suman/Documents/lab10/JChatService/JChatComm.java",
+		"/home/suman/Documents/lab10/JChatService/JServer.java",
+		"/home/suman/Documents/lab10/JChatService/JPacket.java",
+		"/home/suman/Documents/lab10/JChatService/JMessage.java",
+		"/home/suman/Documents/lab10/JChatService/JClient.java",
+		"/home/suman/Documents/lab8/q2/Writer.java",
+		"/home/suman/Documents/lab8/q2/Reader.java",
+		"/home/suman/Documents/lab8/q2/Book.java",
+		"/home/suman/Documents/lab8/q2/ReaderWriter.java",
+		"/home/suman/Documents/lab8/WithdrawalThread.java",
+		"/home/suman/Documents/lab8/Bank.java",
+		"/home/suman/Documents/lab8/AddAccountThread.java",
+		"/home/suman/Documents/lab8/DepositThread.java",
+		"/home/suman/Documents/lab8/Account.java",
+		"/home/suman/Documents/lab8/BankApplication.java",
+		"/home/suman/Documents/lab8/q3/WithdrawalThread.java",
+		"/home/suman/Documents/lab8/q3/Account.java",
+		"/home/suman/Documents/lab8/q3/DepositThread.java",
+		"/home/suman/Documents/lab8/q3/BankApplication.java",
+		"/home/suman/Documents/lab8/q3/Bank.java",
+		"/home/suman/Documents/lab8/q3/AddAccountThread.java",
+		"/home/suman/Documents/lab8/readme.txt",
+		"/home/suman/Downloads/lab08_group23_final/FactorialDivisor.java",
+		"/home/suman/Documents/lab8/test.java",
+		"/home/suman/Documents/lab7/lab7/fetch_data.py",
+		"/home/suman/Documents/lab7/text_to_csv.py",
+		"/home/suman/Documents/lab7/fetch_data.py",
+		"/home/suman/Documents/lab7/q3/citations",
+		"/home/suman/Documents/lab7/q3/tenth.txt",
+		"/home/suman/Documents/lab7/q3/cbseProcess.py",
+		"/home/suman/Downloads/startbootstrap-freelancer-1.0.3/index.html",
+		"/home/suman/Desktop/public_html/index.html",
+		"/home/suman/Downloads/startbootstrap-freelancer-1.0.3/css/freelancer.css",
+		"/home/suman/Downloads/startbootstrap-freelancer-1.0.3/css/bootstrap.css",
+		"/home/suman/Downloads/startbootstrap-freelancer-1.0.3/css/bootstrap.min.css",
+		"/home/suman/Downloads/homepage 2/lab02_23_final/Webpage/outlab",
+		"/home/suman/Downloads/homepage 2/lab02_23_final/Webpage/Lab",
+		"/home/suman/Downloads/homepage 2/lab02_23_final/Webpage/group.html",
+		"/home/suman/Downloads/homepage 2/lab02_23_final/Webpage/inlab",
+		"/home/suman/Downloads/lab02_23_final/Webpage/group.html",
+		"/home/suman/Documents/lab5/cs251_base_code/src/callbacks.hpp",
+		"/home/suman/Documents/lab5/cs251_base_code/src/main.cpp",
+		"/home/suman/Documents/lab5/cs251_base_code/src/callbacks.cpp",
+		"/home/suman/Documents/lab5/cs251_base_code/src/render.hpp",
+		"/home/suman/Documents/lab5/cs251_base_code/src/render.cpp",
+		"/home/suman/Documents/lab5/cs251_base_code/src/dominos.hpp",
+		"/home/suman/Documents/lab5/cs251_base_code/src/dominos.cpp",
+		"/home/suman/Documents/lab5/cs251_base_code/src/cs251_base.cpp",
+		"/home/suman/Documents/lab5/cs251_base_code/src/cs251_base.hpp",
+		"/home/suman/Documents/lab5/cs251_base_code/src/Instructions.txt",
+		"/home/suman/Documents/lab6/lab06_group23_final/gradient_descent.m",
+		"/home/suman/Documents/lab6/final/gradient_descent.m",
+		"/home/suman/Documents/lab6/makefile",
+		"/home/suman/Documents/lab6/pre/gradient_descent.m",
+		"/home/suman/Documents/lab6/pre/makefile",
+		"/home/suman/Documents/lab6/pre/plot.gnu",
+		"/home/suman/Documents/lab6/plot.gnu",
+		"/home/suman/Documents/lab6/gradient_descent.m",
+		"/home/suman/Documents/lab6/batmandescent.m",
+		"/home/suman/Documents/lab6/test.m",
+		"/home/suman/Documents/lab6/batplot.gnu",
+		"/home/suman/Downloads/compute.m",
+		"/home/suman/Downloads/ProjectileMotion(1).m",
+		"/home/suman/Documents/lab5/readme.txt",
+		"/home/suman/Documents/lab5/make.txt",
+		"/home/suman/Documents/lab5/cmakeSubmit.txt",
+		"/home/suman/Documents/lab5/CMakeLists.txt",
+		"/home/suman/Documents/lab5/makefile",
+		"/home/suman/Desktop/untitledss.sh",
+		"/home/suman/Documents/lab4/lab04_group23_final/script_compile.sh",
+		"/home/suman/Downloads/inlab4/makePasswordless.sh",
+		"/home/suman/Downloads/lab04_group23_final/2.sh",
+		"/home/suman/Documents/lab4/lab04_group23_final/system_spec.sh",
+		"/home/suman/Documents/lab4/lab04_group23_final/valid.sh",
+		"/home/suman/Downloads/lab04_group23_final/7.sh",
+		"/home/suman/Downloads/lab04_group23_final/4.sh",
+		"/home/suman/Documents/lab4/lab/valid.sh",
+		"/home/suman/Documents/lab4/lab/script_compile.sh",
+		"/home/suman/Documents/lab4/lab/system_spec.sh",
+		"/home/suman/Documents/lab4/lab/valid",
+		"/home/suman/Documents/lab4/lab/temp",
+		"/home/suman/Documents/lab4/lab/script\\_compile.sh",
+		"/home/suman/Documents/lab4/lab/script_\\compile.sh",
+		"/home/suman/Downloads/homepage 2/lab02_23_final/Webpage/index.css"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"TextInput",
+			"python",
+			"profile",
+			"presentation",
+			"finalreport",
+			"DEPS",
+			"deps",
+			"open container",
+			"telepo",
+			"hydraul",
+			"dominos",
+			"sbody",
+			"curved",
+			"tele",
+			"step",
+			"heavy sphere",
+			"sphere",
+			"pendulum",
+			"heavy sphere",
+			"one container",
+			"dominos",
+			"open containe",
+			"296",
+			"PI",
+			"update",
+			"IsLocked()",
+			"setup",
+			"test",
+			"sim_t",
+			"sim_create_fcn();",
+			"base_sim_t",
+			"		\n",
+			"base_sim_t",
+			"m_world",
+			"b2_kineticBody",
+			"book.content",
+			"bank",
+			"Bank",
+			"content",
+			"}\n",
+			"myclass",
+			"nacc",
+			"accounts",
+			"nacc",
+			"distance_joint",
+			"NO",
+			"bootstrap",
+			"contact",
+			"portfolio",
+			"offset",
+			"left",
+			"offset",
+			"col-lg",
+			"col",
+			"2012",
+			"img-res",
+			"06",
+			"base_sim_t",
+			"test",
+			"base_sim_t",
+			"m_deb",
+			"SetDe",
+			"base",
+			"static",
+			"r",
+			"l",
+			"w",
+			"h",
+			"y",
+			"y1",
+			"x1",
+			"y1",
+			"y",
+			"x",
+			";\n",
+			"sin(alpha)",
+			"cos(alpha)"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"forms.TextInput",
+			"report",
+			"presentation",
+			"book.read()",
+			"BankApplication.bank",
+			"bank",
+			"Book",
+			"Bank.nacc",
+			"Bank.accounts",
+			"Bank.nacc",
+			"spring_joint",
+			"projects",
+			"23",
+			"r(x)",
+			"l(x)",
+			"w(x)",
+			"h(x)",
+			"y",
+			"x",
+			"y",
+			"y1",
+			"x1",
+			"(alpha*sqrt(1/1+alpha*alpha))",
+			"(1/sqrt(1+alpha*alpha))"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "form/forms.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1527,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1526,
+								1526
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "branchchange/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 775,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								594,
+								594
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "form/templates/logout.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "form/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1678,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1449,
+								1449
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 145.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "form/templates/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1245,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1226,
+								1226
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "form/templates/register.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 685,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								270,
+								270
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "form/templates/nav.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1567,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								865,
+								865
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "form/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1117,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1024,
+								1024
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "form/templates/head.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 727,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								208,
+								208
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "branchchange/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3202,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1614,
+								1614
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "form/templates/form.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 973,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								166,
+								166
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "branchchange.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 206.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
