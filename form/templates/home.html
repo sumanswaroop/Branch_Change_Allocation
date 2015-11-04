@@ -1,13 +1,14 @@
 {% load staticfiles %}
-<!DOCTYPE HTML >
-<html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
 {% include 'head.html' %}
 
 <body>
 
 {% include 'nav.html' %}
+
+<div class = "container" >
+<div class="img-responsive col-sm-offset-4" alt="Cinque Terre" >
+<img src = "{% static 'img/image.jpeg' %}"  style = "width:45%" >
+</div>
 
 <form class = "form-horizontal" method ="post" action = "{% url 'auth_view' %}"> {% csrf_token %}
    
@@ -26,7 +27,7 @@
     </div>
 
 {% if messages %}
-<div class = "col-sm-4 col-md-4 col-xs-4" >
+<div class = "col-sm-4 col-sm-offset-4 col-md-4 col-xs-4" >
 <div class="alert alert-danger">
 {% for message in messages %}
         {{ message|safe }}
@@ -34,14 +35,14 @@
 </div>
 </div>
 {% endif %}
-   <div class="form-group">
-    <div class="col-sm-4 col-md-4 col-xs-4 text-center col-sm-offset-4">
-      <button class="btn btn-info btn-md" type = "submit">Login</button>
-    </div>
-  </div>
+<div class="form-group">
+   <div class="col-sm-4 col-md-4 col-xs-4 col-sm-offset-4 text-center">
+ <button class="btn btn-info btn-md " type = "submit">Login</button>
+ </div>
+ </div>
    </form>
 
-
+   </div>
 
 </body>
 </html>

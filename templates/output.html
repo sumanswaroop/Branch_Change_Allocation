@@ -1,0 +1,50 @@
+{% include 'head.html' %}
+<body>
+{% include 'nav.html' %}
+
+<div class="container">
+  <h2 class = "text-center">Present Allocation</h2> 
+  <br>                                                                                     
+  <div class="table-responsive">          
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Roll No</th>
+        <th>Name</th>
+        <th>Previous Branch</th>
+        <th>Allocated Branch</th>
+      </tr>
+    </thead>
+    
+    <tbody>
+ 
+      {% for x in output %}
+
+      {% if not forloop.first %}
+      <tr class = "success">
+        <td>{{ x.0 }}</td>
+        <td>{{ x.1 }}</td>
+        <td>{{ x.2 }}</td>
+        <td>{{ x.3 }}</td>
+      </tr>
+      {%endif%}
+      
+      {% endfor %}
+    </tbody>
+  </table>
+  </div>
+  </div>
+<form action="/admin/getStats/" method="post">{% csrf_token %}
+<input style = "position:relative;margin:auto;left:47.8%"type="submit" name="stats" value = "Get Stats" />
+</form>
+<br>
+<br>
+<div class="form-group">
+    <div class="col-sm-4 col-md-4 col-xs-4 text-center col-sm-offset-4">
+     <a href = "/admin/" ><button class="btn btn-info btn-md">Back</button>
+    </div>
+</div>
+
+
+</body>
+</html>

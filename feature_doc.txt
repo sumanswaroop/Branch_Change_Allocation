@@ -1,0 +1,82 @@
+Group - 23
+
+Roll:
+140050004	Yogesh Kumar Meena
+140050009	Utkarsh Gautam
+140050032	Suman Swaroop
+
+Project : Branch Change Seat Allocation 
+
+
+Features:
+
+-----> All pages are designed using BOOTSTRAP and Dynamic Behaviour of pages(error popups & display) using JQUERY JAVASCRIPT.
+
+1) Login Page: 
+	a)Input Fields:
+		Username:
+				1) Accepts only Letters, digits and @ . + - _ (Django defaults). In login page it wont show error dynamically and diasble submit button because that will make bruteforce attack easy on the site.
+
+				--> After Login is clicked A error message displays showing invalid credentials.
+
+	b)The navigation bar login option to help user login from any page he is in of the website.		
+
+2) Branch Change form Page:
+
+	--> Every errors are displayed dynamically as u type in and submit button is disabled.
+
+	a)Input Fields:
+		Roll No:
+			1)Only Rollnos Starting with 15 and third digit may be D or 0-9 and after that digits only(Used Regular expression of javascript)
+				-> Errors are displayed dynamically just below the field with a cross mark in the field
+				-> Submit button disabled until corrected.
+			2)Input length rerstricted to 9 , that one cant tyoe more than 9 digits. This means after 9th digit even user types a number that wont
+			displayed and taken.
+		Name: 
+			1)Min length and max length restricted[6-30]
+			2)Only Alphabets allowed ,digits and some special characters.No spaces(regexep javascript)
+
+		Cpi:
+			1) Restricted to [0:10] with max two digits before decimal and two digits after decimal.
+				--> Shows Error in UI with disabled submit button.
+				--> Input form is of "XX.XX" only within range 0<=cpi<=10 .
+
+		Preferences:
+			1) In this option all branches are vailable except the presnet branch. Whatever branch one select in present branch, That option 
+			becomes unavialble in preferneces lists.
+
+			2)Prefernces list appears dynamically.
+
+			3)If someone tries to enter the same branch in two fields, a warninig popups and the values of the two fields get swapped
+			automatically.
+				This was done to ease user to make drastic changes in his prefernces a little easy.
+			4)If someone enters none in between the preferences list all fields below that will be removed.
+
+		b) If a user has already submitted his preferences an then login again , he has option to edit his previous options.
+			-->> All fields like name, rollno , cpi , present branch are restricted from changing. They are changed to readonly mode.
+
+3) Register:
+	Input Fields:
+	 1) Username : Restricted with rules mentioned in first point with dynamic UI error notifications.
+	 2) ROll No - Only of format  15XXXXXXX allowed plus third can be a digit or a D.
+
+
+4) If there occurs some error while saving forms , a error page is popped up.
+
+5) Logout success page redirects within 2 seconds to login page.
+
+6) Register success page redirects to login page within 2 seconds.
+
+----------------------------------------------------ADMIN PAGE Features ------------------------------------------------
+
+1) It allowa admin to upload two csv files(one containing the input_options and other one input_programs) for checking the branch_change algorithm.After submission ,it redirects to the result page,which shows the final branch change allocations.
+Another link has been provided to view the statistics.
+
+2)If no files are submitted,the program out puts the allocation from current status of database in the program.The procedure is same as described above. 
+
+
+----------------------------------------------------LIMITATIONS----------------------------------------------------------
+
+1) The number of branches and options in dropdown list are fixed. To change them one has to edit the django python code.
+	->Failed to implement dynamic model.
+	

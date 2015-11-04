@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+{% block content %}
+<form method="post" action="/admin/output/">{%csrf_token%}
+ {{ form.as_table }}
+<input type="submit" name="save" ><br>
+<input type="submit" name="back">
+{%endblock%}
+</form>
+</body>
+</html>

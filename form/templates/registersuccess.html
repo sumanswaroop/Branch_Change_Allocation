@@ -1,0 +1,13 @@
+{% load staticfiles %}
+{% include 'head.html' %}
+<meta http-equiv="refresh" content="3;{% url 'login' %}"> 
+{% include 'nav.html' %}
+<body>
+<div class = "container">
+<div class="img-responsive col-sm-offset-4" alt="Cinque Terre" >
+<img src = "{% static 'img/success.png' %}"  style = "width:45%" >
+</div>
+<div class="alert alert-success" role="alert"><h3>Registered Successfully Cheers!!</h3></div>
+</div>
+</body>
+</html>

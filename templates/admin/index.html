@@ -1,0 +1,42 @@
+{% extends "contrib/admin/templates/admin/index.html" %}
+{% block extrastyle %}
+{{ block.super }}
+{% include 'head.html' %}
+{% endblock %}
+
+{% block content %}
+<div class="jumbotron vertical-center">
+<div class = "container" >
+    <a href="/admin/programs/" >Programs here ..!!</a>
+    {{ block.super }}
+   
+	<form class = "form-horizontal" method ="post" action = "/admin/getAllocation/" enctype="multipart/form-data"> {% csrf_token %}
+
+		<div class="form-group" >
+		<label class="control-label col-sm-4 col-md-4 col-xs-4" for = "input">Submit The Input File:(Prefernce List)</label>
+    	<div class="col-sm-4 col-md-4 col-xs-4 selectContainer">
+    	<input class = "form-control" type="file" name="input" value="Input Data" ></file><br>    
+    	</div>
+		</div>
+
+		<div class="form-group" >
+		<label class="control-label col-sm-4 col-md-4 col-xs-4" for = "input">Submit The Input File:(Programmes)</label>
+    		<div class="col-sm-4 col-md-4 col-xs-4 selectContainer">
+    		<input class = "form-control" type="file" name="programs" value="Input Data" ></file><br>   
+    		</div>
+		</div>
+	
+	<p>If no file is entered,data from data base will be used.</p>
+
+   <div class="form-group">
+    <div class="col-sm-4 col-md-4 col-xs-4 text-center col-sm-offset-4">
+      <input class="btn btn-info btn-md" name = "output" type = "submit" value = "Get Allocation">
+    </div>
+  </div>
+   </form>
+   </div>
+</div>
+{% endblock %}
+
+{% block sidebar %}
+{% endblock %}

@@ -1,22 +1,23 @@
 {% load staticfiles %}
-
-<!DOCTYPE HTML>
-<html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
 {% include 'head.html' %}
 
 <body>
+{% if not form.errors %}
+
 {% if user.is_authenticated %}
 
 
 {% include 'nav.html' %}
 
 <!-- Form -->
-<form class="form-horizontal" method = "post" id = "bchangeform" role = "form" >{% csrf_token %}
+<div class = "container" >
+<h2 class = "text-center">Branch Change Allocation Form</h2> 
+<br>
+<br>
+<form class="form-horizontal" method = "post" id = "bchangeform" role = "form" action = "/bchangeform" >{% csrf_token %}
     {% for field in form %}
      
-  <div class="form-group" >
+  <div class="form-group" id = "{{ field.label|cut:" " }}">
 	<label class="control-label col-sm-4 col-md-4 col-xs-4">{{ field.label }}</label>
     <div class="col-sm-4 col-md-4 col-xs-4 selectContainer">
     {{field}}    
@@ -24,12 +25,33 @@
   </div>
 {% endfor %}
   <!-- Submit Button -->
+  {% if not queryset %}
   <div class="form-group">
-    <div class="col-sm-offset-4 col-sm-4 col-md-4 col-xs-4">
+    <div class="col-sm-offset-4 col-sm-4 col-md-4 col-xs-4 text-center">
       <button class="btn btn-success btn-md" type = "submit">Submit</button>
     </div>
   </div>
+  {% endif %}
+  <!--Update -->
+  {% if queryset %}
+  <div class="form-group">
+    <div class="col-sm-offset-4 col-sm-4 text-center col-md-4 col-xs-4">
+      <button class="btn btn-success btn-md" type = "submit">Update</button>
+    </div>
+  </div>
+  {% endif %}
 </form>
+{% if queryset %}
+<div class="col-sm-offset-4 col-sm-4 text-center col-md-4 col-xs-4">
+      <button class="btn btn-success btn-md" id = "id_refresh">Refresh</button>
+    </div>
+  <br>
+  <br>
+<div class="col-sm-offset-4 col-sm-4 text-center col-md-4 col-xs-4">
+      <a href = "{% url 'fdetail' %}" ><button class="btn btn-success btn-md">Filled Detail</button></a>
+    </div>
+{% endif %}
+
 {% endif %}
 
 {% if not user.is_authenticated %}
@@ -38,5 +60,15 @@
 </div>
 {% endif %}
 
+{% endif %}
+{% if form.errors %}
+<div class="img-responsive col-sm-offset-4" alt="Cinque Terre" >
+<img src = "{% static 'img/fail.jpeg' %}"  style = "width:45%" >
+</div>
+<div class="alert alert-danger">
+  <strong>!</strong> Whoops Submission Unsuccessful.Errors occured
+</div>
+{% endif %}
+</div>
 </body>
 </html>

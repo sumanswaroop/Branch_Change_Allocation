@@ -1,0 +1,44 @@
+{% include 'head.html' %}
+<body>
+{% include 'nav.html' %}
+<div class="container">
+  <h2 class = "text-center">Present Statistics</h2> 
+  <br>                                                                                     
+  <div class="table-responsive">          
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Branch</th>
+        <th>Cutoff CPI</th>
+        <th>Sanctioned strength</th>
+        <th>Allocated Branch</th>
+        <th>Final Strength</th>
+      </tr>
+    </thead>
+    
+    <tbody>
+    
+      {% for x in output|slice:"1:" %}
+       {% if not forloop.first %}
+      <tr class = "success">
+        <td>{{ x.0 }}</td>
+        <td>{{ x.1 }}</td>
+        <td>{{ x.2 }}</td>
+        <td>{{ x.3 }}</td>
+        <td>{{ x.4 }}</td>
+      </tr>
+      {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
+  </div>
+</div>
+<div class="form-group">
+    <div class="col-sm-4 col-md-4 col-xs-4 text-center col-sm-offset-4">
+     <a href = "/admin/" ><button class="btn btn-info btn-md">Back</button>
+    </div>
+</div>
+</body>
+
+</body>
+</html>

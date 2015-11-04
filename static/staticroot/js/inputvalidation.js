@@ -25,7 +25,7 @@ $(document).ready(function() {
                         message: 'Roll Number must be of 9 Digits'
                     },
                     regexp:{
-                        regexp: /^15/,
+                        regexp: /^[1]{1,1}[5]{1,1}[D0-9]{1,1}[0-9]{6,6}/,
                         message: 'Roll Number must be of the form 15XXXXXXX only'
 
                     }
@@ -43,15 +43,19 @@ $(document).ready(function() {
                     }
                 }
             },
-            pref1:{
+            username:{
                 validators:{
                     notEmpty:{
-                        message:'Prefernce can not be empty'
+                        message: 'Username Can\'t be Empty'
+                    },
+                    stringLength:{
+                        min: 6,
+                        max: 30,
+                        message: 'Length must be between [8-30]'
                     }
-
                 }
             },
-            pref2:{
+            Preference_1:{
                 validators:{
                     notEmpty:{
                         message:'Prefernce can not be empty'

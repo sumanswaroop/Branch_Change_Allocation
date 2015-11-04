@@ -1,0 +1,41 @@
+{% load staticfiles %}
+{% include 'head.html' %} 
+
+{% include 'nav.html' %}
+{% if user.is_authenticated %}
+
+<body>
+<div class="container">
+  <h2 class = "text-center">Your Filled Details</h2>
+  <h3 class = "text-center">{{ form.rollno }}</h3>
+<div class="table-responsive">          
+  <table class="table">
+    <thead>
+      <tr>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+   {% for field in form %}
+   	{% if field.value %}
+    <tbody>
+      <tr>
+        <td>{{ field.label }}</td>
+        <td>{{ field.value }}</td>
+      </tr>
+    </tbody>
+    {% endif %}
+    {% endfor %}
+  </table>
+  </div>
+</div>
+<div class="col-sm-4 col-md-4 col-xs-4 text-center col-sm-offset-4">
+      <a href = {% url 'bchangeform' %} ><button class="btn btn-info btn-md">Update</button></a>
+    </div>
+
+</body>
+{% endif %}
+</html>
+
+</body>
+</html>

@@ -25,7 +25,7 @@ $(document).ready(function() {
                         message: 'Roll Number must be of 9 Digits'
                     },
                     regexp:{
-                        regexp: /^15/,
+                        regexp: /^[1]{1,1}[5]{1,1}[D0-9]{1,1}[0-9]{6,6}/,
                         message: 'Roll Number must be of the form 15XXXXXXX only'
 
                     }
@@ -40,18 +40,32 @@ $(document).ready(function() {
                         min: 0,
                         max: 10,
                         message: 'CPI must be in [0,10]'
+                    },
+                    regexp:
+                    {
+                        regexp:/^\d+(\.\d{1,2})?$/ ,
+                        message: "CPI Must be of the form XX.XX"
                     }
                 }
             },
-            pref1:{
+            username:{
                 validators:{
                     notEmpty:{
-                        message:'Prefernce can not be empty'
+                        message: 'Username Can\'t be Empty'
+                    },
+                    stringLength:{
+                        min: 6,
+                        max: 30,
+                        message: 'Length must be between [6-30]'
+                    },
+                    regexp:
+                    {
+                        regexp:/^\S*$/ ,
+                        message: "Spaces are not allowed."
                     }
-
                 }
             },
-            pref2:{
+            Preference_1:{
                 validators:{
                     notEmpty:{
                         message:'Prefernce can not be empty'

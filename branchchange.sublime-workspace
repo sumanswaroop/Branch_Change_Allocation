@@ -4,6 +4,66 @@
 		"selected_items":
 		[
 			[
+				"p",
+				"previous"
+			],
+			[
+				"Htt",
+				"HttpResponseRedirect"
+			],
+			[
+				"ren",
+				"render"
+			],
+			[
+				"d",
+				"d"
+			],
+			[
+				"e",
+				"e"
+			],
+			[
+				"user",
+				"userpostform"
+			],
+			[
+				"cl",
+				"cleaned_data"
+			],
+			[
+				"pa",
+				"password1"
+			],
+			[
+				"u",
+				"userpostform"
+			],
+			[
+				"us",
+				"username"
+			],
+			[
+				"register",
+				"registersuccess"
+			],
+			[
+				"is_",
+				"is_valid"
+			],
+			[
+				"Pass",
+				"PasswordInput"
+			],
+			[
+				"pas",
+				"password2"
+			],
+			[
+				"password",
+				"password1"
+			],
+			[
 				"Re",
 				"RequestContext"
 			],
@@ -16,16 +76,8 @@
 				"UserCreationForm"
 			],
 			[
-				"user",
-				"userregister"
-			],
-			[
 				"inva",
 				"invalid_login"
-			],
-			[
-				"ren",
-				"render_to_response"
 			],
 			[
 				"re",
@@ -212,10 +264,6 @@
 				"InputStreamReader"
 			],
 			[
-				"pa",
-				"password"
-			],
-			[
 				"new",
 				"newaccount"
 			],
@@ -379,79 +427,7 @@
 			"file": "form/forms.py",
 			"settings":
 			{
-				"buffer_size": 1527,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "branchchange/urls.py",
-			"settings":
-			{
-				"buffer_size": 775,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "form/templates/logout.html",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "form/views.py",
-			"settings":
-			{
-				"buffer_size": 1678,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "form/templates/home.html",
-			"settings":
-			{
-				"buffer_size": 1245,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "form/templates/register.html",
-			"settings":
-			{
-				"buffer_size": 685,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "form/templates/nav.html",
-			"settings":
-			{
-				"buffer_size": 1567,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "form/models.py",
-			"settings":
-			{
-				"buffer_size": 1117,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "form/templates/head.html",
-			"settings":
-			{
-				"buffer_size": 727,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "branchchange/settings.py",
-			"settings":
-			{
-				"buffer_size": 3202,
+				"buffer_size": 3698,
 				"line_ending": "Unix"
 			}
 		},
@@ -459,7 +435,175 @@
 			"file": "form/templates/form.html",
 			"settings":
 			{
-				"buffer_size": 973,
+				"buffer_size": 2044,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "form/models.py",
+			"settings":
+			{
+				"buffer_size": 5816,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static/staticfile/js/dynamicadd.js",
+			"settings":
+			{
+				"buffer_size": 22119,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/admin/index.html",
+			"settings":
+			{
+				"buffer_size": 1458,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/admin/newindex.html",
+			"settings":
+			{
+				"buffer_size": 41,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/nav.html",
+			"settings":
+			{
+				"buffer_size": 1580,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db.sqlite3",
+			"settings":
+			{
+				"buffer_size": 514560,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static/staticfile/js/inputvalidation.js",
+			"settings":
+			{
+				"buffer_size": 2617,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "branchchange/urls.py",
+			"settings":
+			{
+				"buffer_size": 1242,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "form/views.py",
+			"settings":
+			{
+				"buffer_size": 15688,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/output.html",
+			"settings":
+			{
+				"buffer_size": 1168,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "form/templates/nav.html",
+			"settings":
+			{
+				"buffer_size": 1587,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "form/templates/head.html",
+			"settings":
+			{
+				"buffer_size": 874,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "form/admin.py",
+			"settings":
+			{
+				"buffer_size": 332,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "form/templates/success.html",
+			"settings":
+			{
+				"buffer_size": 845,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "form/templates/home.html",
+			"settings":
+			{
+				"buffer_size": 1330,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "branchchange/forms.py",
+			"settings":
+			{
+				"buffer_size": 991,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "branchchange/models.py",
+			"settings":
+			{
+				"buffer_size": 1,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "branchchange/admin.py",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "form/templates/logout.html",
+			"settings":
+			{
+				"buffer_size": 403,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "form/templates/register.html",
+			"settings":
+			{
+				"buffer_size": 1005,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "form/templates/registersuccess.html",
+			"settings":
+			{
+				"buffer_size": 421,
 				"line_ending": "Unix"
 			}
 		}
@@ -496,27 +640,38 @@
 	},
 	"expanded_folders":
 	[
-		"/home/suman/Documents/branchchange",
-		"/home/suman/Documents/branchchange/branchchange",
-		"/home/suman/Documents/branchchange/form",
-		"/home/suman/Documents/branchchange/form/templates",
-		"/home/suman/Documents/branchchange/static",
-		"/home/suman/Documents/branchchange/static/staticfile",
-		"/home/suman/Documents/branchchange/static/staticfile/Validator"
+		"/home/suman/Pictures/lab11_group23_final/branchchange",
+		"/home/suman/Pictures/lab11_group23_final/branchchange/form",
+		"/home/suman/Pictures/lab11_group23_final/branchchange/form/templates",
+		"/home/suman/Pictures/lab11_group23_final/branchchange/static",
+		"/home/suman/Pictures/lab11_group23_final/branchchange/static/staticfile",
+		"/home/suman/Pictures/lab11_group23_final/branchchange/static/staticfile/js"
 	],
 	"file_history":
 	[
+		"/home/suman/Pictures/lab11_group23_final/branchchange/static/staticfile/js/dynamicadd.js",
+		"/home/suman/Downloads/branch_change_ug/branchchange/templates/head.html",
+		"/home/suman/Downloads/branch_change_ug/branchchange/templates/bchange/output.html",
+		"/home/suman/Downloads/branch_change_ug/branchchange/static/staticfile/js/dynamicadd.js",
+		"/home/suman/Documents/branchchange/form/urls.py",
+		"/home/suman/Documents/branchchange/manage.py",
+		"/home/suman/Documents/branchchange/static/staticfile/js/inputvalidation.js",
+		"/home/suman/Downloads/branch_change_ug/manage.py",
+		"/home/suman/Documents/branchchange/static/staticfile/js/dynamicadd.js",
+		"/home/suman/Documents/branchchange/form/templates/form.html",
+		"/home/suman/Documents/branchchange/form/models.py",
+		"/home/suman/Documents/branchchange/form/templates/head.html",
+		"/home/suman/Documents/branchchange/form/templates/nav.html",
+		"/home/suman/Documents/branchchange/branchchange/forms.py",
+		"/home/suman/Documents/branchchange/form/templates/registersuccess.html",
 		"/home/suman/Documents/branchchange/form/templates/logout.html",
+		"/home/suman/Documents/branchchange/branchchange/settings.py",
 		"/home/suman/Documents/branchchange/form/templates/invalid_login.html",
 		"/home/suman/Documents/branchchange/form/templates/loggedin.html",
-		"/home/suman/Documents/branchchange/form/templates/head.html",
 		"/home/suman/Pictures/branchchange/form/templates/form.html",
 		"/home/suman/Documents/branchchange/form/admin.py",
 		"/home/suman/Documents/branchchangehtml/form.html",
-		"/home/suman/Documents/branchchange/form/templates/form.html",
 		"/home/suman/Documents/branchchange/form/forms.py",
-		"/home/suman/Documents/branchchange/form/models.py",
-		"/home/suman/Documents/branchchange/branchchange/settings.py",
 		"/home/suman/Documents/branchchange/form/views.py",
 		"/home/suman/Documents/branchchange/branchchange/urls.py",
 		"/home/suman/Desktop/lab12_group23_final/cs251_base_code/Makefile",
@@ -621,23 +776,11 @@
 		"/home/suman/Desktop/untitledss.sh",
 		"/home/suman/Documents/lab4/lab04_group23_final/script_compile.sh",
 		"/home/suman/Downloads/inlab4/makePasswordless.sh",
-		"/home/suman/Downloads/lab04_group23_final/2.sh",
-		"/home/suman/Documents/lab4/lab04_group23_final/system_spec.sh",
-		"/home/suman/Documents/lab4/lab04_group23_final/valid.sh",
-		"/home/suman/Downloads/lab04_group23_final/7.sh",
-		"/home/suman/Downloads/lab04_group23_final/4.sh",
-		"/home/suman/Documents/lab4/lab/valid.sh",
-		"/home/suman/Documents/lab4/lab/script_compile.sh",
-		"/home/suman/Documents/lab4/lab/system_spec.sh",
-		"/home/suman/Documents/lab4/lab/valid",
-		"/home/suman/Documents/lab4/lab/temp",
-		"/home/suman/Documents/lab4/lab/script\\_compile.sh",
-		"/home/suman/Documents/lab4/lab/script_\\compile.sh",
-		"/home/suman/Downloads/homepage 2/lab02_23_final/Webpage/index.css"
+		"/home/suman/Downloads/lab04_group23_final/2.sh"
 	],
 	"find":
 	{
-		"height": 22.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -651,6 +794,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"id_Preference_5",
+			"models.py",
+			", blank = True",
+			", required=True",
+			"required=True",
+			"null",
+			",'ng-show':'count > 1'",
+			"Prefernce_1",
 			"TextInput",
 			"python",
 			"profile",
@@ -735,6 +886,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			", required = False",
+			"",
+			"''",
+			"",
 			"forms.TextInput",
 			"report",
 			"presentation",
@@ -778,63 +933,155 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1527,
+						"buffer_size": 3698,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1526,
-								1526
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
-						"translation.x": -0.0,
-						"translation.y": 0.0,
+						"translation.x": 0.0,
+						"translation.y": 156.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 20,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "branchchange/urls.py",
+					"file": "form/templates/form.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 775,
+						"buffer_size": 2044,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								594,
-								594
+								1372,
+								1372
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 273.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "form/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5816,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 117.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "static/staticfile/js/dynamicadd.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22119,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2580,
+								2580
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 312.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "templates/admin/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1458,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 16,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "form/templates/logout.html",
+					"buffer": 5,
+					"file": "templates/admin/newindex.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 41,
 						"regions":
 						{
 						},
@@ -853,225 +1100,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "form/views.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1678,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1449,
-								1449
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 145.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "form/templates/home.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1245,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1226,
-								1226
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "form/templates/register.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 685,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								270,
-								270
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
+					"stack_index": 15,
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "form/templates/nav.html",
+					"file": "templates/nav.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1567,
+						"buffer_size": 1580,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								865,
-								865
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "form/models.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1117,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1024,
-								1024
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "form/templates/head.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 727,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								208,
-								208
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "branchchange/settings.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3202,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1614,
-								1614
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "form/templates/form.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 973,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								166,
-								166
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1085,6 +1131,471 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "db.sqlite3",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 514560,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "static/staticfile/js/inputvalidation.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2617,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 425.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "branchchange/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1242,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "form/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15688,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 234.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "templates/output.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1168,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "form/templates/nav.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1587,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1359,
+								1359
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "form/templates/head.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 874,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								28,
+								28
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "form/admin.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 332,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "form/templates/success.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 845,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "form/templates/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1330,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "branchchange/forms.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 991,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								344,
+								344
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "branchchange/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "branchchange/admin.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "form/templates/logout.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 403,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "form/templates/register.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1005,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "form/templates/registersuccess.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 421,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
 					"type": "text"
 				}
 			]
@@ -1167,7 +1678,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 206.0,
+	"side_bar_width": 253.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

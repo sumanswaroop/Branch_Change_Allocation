@@ -1,0 +1,16 @@
+{% load staticfiles %}
+{% include 'head.html' %}
+<meta http-equiv="refresh" content="2;{% url 'login' %}"> 
+
+<body>
+ {% include 'nav.html' %}
+<div class = "container" >
+<div class = "text-center">
+<div class="img-responsive" alt="Cinque Terre" >
+<img src = "{% static 'img/success.png' %}"  style = "width:40%" >
+</div>
+ <h1>You have been successfully Logged out</h1>
+ </div> 
+  </div>
+ </body>
+ </html>

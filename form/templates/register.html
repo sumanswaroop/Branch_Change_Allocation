@@ -1,29 +1,42 @@
-{% load staticfiles %}
 
-<!DOCTYPE HTML>
-<html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 {% include 'head.html' %}
 <body>
 {% include 'nav.html' %}
-<form class = "form-horizontal" method ="post" action = "/register"> {% csrf_token %}
-   
-{{form}}
+<div class="page-header text-center">
+  <h1>Register<small><br>Branch Change 2015</small></h1>
+</div>
+<br>
+<br>
+<div class = "container">
+<form class = "form-horizontal" method ="post" action = "/register" id = "bchangeform"> {% csrf_token %}
 
-{% if messages %}
-<div class = "col-sm-4 col-md-4 col-xs-4" >
-<div class="alert alert-danger">
-{% for message in messages %}
-        {{ message|safe }}
+ {% for field in form %}
+     
+  	<div class="form-group" >
+		<label class="control-label col-sm-4 col-md-4 col-xs-4">{{ field.label }}</label>
+    	<div class="col-sm-4 col-md-4 col-xs-4 selectContainer">
+    	{{field}}    
+    	</div>
+  </div>
 {% endfor %}
+
+{% if form.errors %}
+
+<div class = "col-sm-4 col-md-4 col-xs-4 col-sm-offset-4" >
+<div class="alert alert-danger text center">
+{{ form.username.errors }}
+{{ form.password2.errors }}
 </div>
 </div>
+
 {% endif %}
+
    <div class="form-group">
     <div class="col-sm-4 col-md-4 col-xs-4 text-center col-sm-offset-4">
-      <button class="btn btn-info btn-md" type = "submit">Login</button>
+      <button class="btn btn-info btn-md" type = "submit">Register</button>
     </div>
   </div>
    </form>
+  </div>
 </body>
 </html>

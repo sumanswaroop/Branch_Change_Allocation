@@ -10,6 +10,10 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
+import django;
+DJANGO_PATH=os.path.dirname(django.__file__)
+
+
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
 
@@ -82,6 +86,7 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
             # insert your TEMPLATE_DIRS here
+            os.path.join(BASE_DIR, 'templates'),DJANGO_PATH
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -105,12 +110,16 @@ TEMPLATES = [
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
 
+LOGIN_URL='/login/'
+
+
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static" , "staticfile"),
     #'/var/www/static/',
 )
+
 
 STATIC_ROOT = os.path.join(BASE_DIR, "static" , "staticroot")
 
